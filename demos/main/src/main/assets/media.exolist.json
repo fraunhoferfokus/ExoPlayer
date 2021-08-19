@@ -1,589 +1,110 @@
 [
   {
-    "name": "Clear DASH",
+    "name": "Telekom",
     "samples": [
       {
-        "name": "HD (MP4, H264)",
-        "uri": "https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd"
+        "name": "Test",
+        "uri": "http://xs22.tv.telekom.net/bpk-vod/vod_clear/default/test-2021-06-03-002/test-2021-06-03-002/index.mpd"
       },
       {
-        "name": "UHD (MP4, H264)",
-        "uri": "https://storage.googleapis.com/wvmedia/clear/h264/tears/tears_uhd.mpd"
+        "name": "Test (HTTPS)",
+        "uri": "https://xs22.tv.telekom.net/bpk-vod/vod_clear/default/test-2021-06-03-002/test-2021-06-03-002/index.mpd"
       },
       {
-        "name": "HD (MP4, H265)",
-        "uri": "https://storage.googleapis.com/wvmedia/clear/hevc/tears/tears.mpd"
+        "name": "Telekom",
+        "uri": "http://193.174.152.6/bpk-vod/vod/default/DTAG-test-clip-25p-20190611-HD_H-Test/DTAG-test-clip-25p-20190611-HD_H-Test/index.mpd"
       },
       {
-        "name": "UHD (MP4, H265)",
-        "uri": "https://storage.googleapis.com/wvmedia/clear/hevc/tears/tears_uhd.mpd"
+        "name": "Forced Subtitles",
+        "uri": "http://dash.fokus.fraunhofer.de/dt/subtitles/forced-subtitle.mpd"
       },
       {
-        "name": "HD (WebM, VP9)",
-        "uri": "https://storage.googleapis.com/wvmedia/clear/vp9/tears/tears.mpd"
+        "name": "Multi Forced Subtitles",
+        "uri": "http://dash.fokus.fraunhofer.de/dt/subtitles/multi-forced-subtitle.mpd"
       },
       {
-        "name": "UHD (WebM, VP9)",
-        "uri": "https://storage.googleapis.com/wvmedia/clear/vp9/tears/tears_uhd.mpd"
-      }
-    ]
-  },
-  {
-    "name": "Widevine DASH (MP4, H264)",
-    "samples": [
+        "name": "Multi_Forced_Subtitles",
+        "uri": "http://dash.fokus.fraunhofer.de/dt/subtitles/multi_forced_subtitle.mpd"
+      },
       {
-        "name": "HD (cenc)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "name": "Description",
+        "uri": "http://dash.fokus.fraunhofer.de/dt/subtitles/description.mpd"
+      },
+      {
+        "name": "NPVR Magenta",
+        "uri": "https://appnpvfk20033.prod.sngtv.t-online.de:443/88888888/224/3736/2021/07/19/150000/120049010000000222902844/8343742244/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=2743,172.29.88.194,872&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441sI4PLZYaMd2%2BWV68TqK6BiV%2Fo2Otk5Bwo32YRWwcWsi%3A20210720134732%3AUTC%2C1086169643%2C79.215.217.49%2C20210720134732%2C01936238%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C300%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "UHD (cenc)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_uhd.mpd",
+        "name": "NPVR Magenta anderer server",
+        "uri": "https://slbrrmfk11100.prod.sngtv.t-online.de/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441uePcAUk8oln1QrgfjZs%2FZPfbARvqGDdy0FUnqq2nv2p%3A20210720143657%3AUTC%2C1086169643%2C79.215.217.49%2C20210720143657%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "HD (cbcs)",
-        "uri": "https://storage.googleapis.com/wvmedia/cbcs/h264/tears/tears_aes_cbcs.mpd",
+        "name": "NPVR Magenta 2",
+        "uri": "https://appnpvfk20007.prod.sngtv.t-online.de:443/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441ti3v3eOvwKMVOfNY1h6HobfbARvqGDdy0FUnqq2nv2p%3A20210720142319%3AUTC%2C1086169643%2C79.215.217.49%2C20210720142319%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "UHD (cbcs)",
-        "uri": "https://storage.googleapis.com/wvmedia/cbcs/h264/tears/tears_aes_cbcs_uhd.mpd",
+        "name": "NPVR Magenta Daniel",
+        "uri": "https://appnpvfk20007.prod.sngtv.t-online.de/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441ti3v3eOvwKMVOfNY1h6HobfbARvqGDdy0FUnqq2nv2p%3A20210720142319%3AUTC%2C1086169643%2C79.215.217.49%2C20210720142319%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "Secure -> Clear -> Secure (cenc)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/widevine/tears_enc_clear_enc.mpd",
+        "name": "Live",
+        "uri": "https://ber-et-01--svc40.main.px.t-online.de/LCID3221228143.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228143/3221228143.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EJyc5Ch5qScekJZABAr_obQ%7EeBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN-uzGrr-WGCXQQ7JFtoRay81YL4aSpOyWbB4v3pmOJhUAlCWh3it_Un-tXgIkoM%3A20210720132406%3AUTC%2C1086169643%2C79.215.217.49%2C20210720132406%2Cdas-erste%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=1&sid=DD322D61274B89152808936BFBFDC94F&uid=120049010000000222902844&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test",
-        "drm_session_for_clear_content": true
-      }
-    ]
-  },
-  {
-    "name": "Widevine DASH (WebM, VP9)",
-    "samples": [
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+      },
       {
-        "name": "HD (cenc, full-sample)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/tears/tears.mpd",
+        "name": "RTL Live",
+        "uri": "https://ber-et-01--svc40.main.px.t-online.de/LCID3221228142.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228142/3221228142.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7E3xfHxvnZwT529Epjp-uXqg%7EeBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN-uzGrr-WGCXQQ7JFtoRay81YL4aSpOyWbB4v3pmOJhUAlCWh3it_Un-tXgIkoM%3A20210720132406%3AUTC%2C1086169643%2C79.215.217.49%2C20210720132406%2Crtl%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=3&sid=DD322D61274B89152808936BFBFDC94F&uid=120049010000000222902844&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "UHD (cenc, full-sample)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/tears/tears_uhd.mpd",
+        "name": "NPVR Magenta mit DRM",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "HD (cenc, sub-sample)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/subsample/24fps/tears/tears.mpd",
+        "name": "NPVR Magenta ohne DRM",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr.mpd"
+      },
+      {
+        "name": "NPVR Magenta bei Fame",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "UHD (cenc, sub-sample)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/vp9/subsample/24fps/tears/tears_uhd.mpd",
+        "name": "NPVR Magenta bei Fame 2",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr2/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-      }
-    ]
-  },
-  {
-    "name": "Widevine DASH (MP4, H265)",
-    "samples": [
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+      },
       {
-        "name": "HD (cenc)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears.mpd",
+        "name": "NPVR Magenta bei Fame combined",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       },
       {
-        "name": "UHD (cenc)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_uhd.mpd",
+        "name": "Monk",
+        "uri": "http://62.155.253.24:80/88888888/224/3730/2021/05/12/102000/120049010000000203550217/7775044010/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=3223,172.29.88.98,862&servicetype=4&accountinfo=9%2BSHXiuFaFzHVn%2FQmrqWh1GWRIeOYaFvhA7bztFWzw3dAONuz5pXMNHw98KVUC0%2BDo5%2FJfzv2gbSmGzhmOcw9M4rwB%2FKxg8Js5QjCf20LP9NZhtcm7yvmSp86pWLJa%2BBslx%2FsVFq1yhXan%2F55lsu%2BbvUvOQ2%2FGbmfU%2FEME7rZIdH5cOAxiSUwoL%2FSLRfLNVP%3A20210719100556%3AUTC,1042738960,176.63.31.252,20210719100556,zdf-neo,CDE6BB54F72929DFFDBA6AC78303ACEA,-1,1,1,,,11,fta_ott_new,,,8,120049010000000203550217,0,120049010000000203550217,00000000-0000-0000-e91d-05071b21a1e7,2,END&GuardEncType=2&uid=120049010000000203550217&sid=CDE6BB54F72929DFFDBA6AC78303ACEA&i=0&dp=0",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-      }
-    ]
-  },
-  {
-    "name": "Widevine DASH (policy tests)",
-    "samples": [
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+      },
       {
-        "name": "SW secure crypto (L3)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+        "name": "Monk Fame",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/monk/monk.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO&provider=widevine_test"
-      },
-      {
-        "name": "SW secure decode",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_DECODE&provider=widevine_test"
-      },
-      {
-        "name": "HW secure crypto",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_CRYPTO&provider=widevine_test"
-      },
-      {
-        "name": "HW secure decode",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_DECODE&provider=widevine_test"
-      },
-      {
-        "name": "HW secure all (L1)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_ALL&provider=widevine_test"
-      },
-      {
-        "name": "30s license (fails at ~30s)",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_CAN_RENEW_FALSE_LICENSE_30S_PLAYBACK_30S&provider=widevine_test"
-      },
-      {
-        "name": "HDCP not required",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_NONE&provider=widevine_test"
-      },
-      {
-        "name": "HDCP 1.0 required",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V1&provider=widevine_test"
-      },
-      {
-        "name": "HDCP 2.0 required",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2&provider=widevine_test"
-      },
-      {
-        "name": "HDCP 2.1 required",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2_1&provider=widevine_test"
-      },
-      {
-        "name": "HDCP 2.2 required",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_V2_2&provider=widevine_test"
-      },
-      {
-        "name": "HDCP no digital output",
-        "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO_HDCP_NO_DIGITAL_OUTPUT&provider=widevine_test"
-      }
-    ]
-  },
-  {
-    "name": "60fps DASH",
-    "samples": [
-      {
-        "name": "HD (MP4, H264, Clear)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-clear-1080/manifest.mpd"
-      },
-      {
-        "name": "4K (MP4, H264, Clear)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-clear-2160/manifest.mpd"
-      },
-      {
-        "name": "HD (MP4, H264, Widevine cenc)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-wv-1080/manifest.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-      },
-      {
-        "name": "4K (MP4, H264, Widevine cenc)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/60fps/bbb-wv-2160/manifest.mpd",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-      }
-    ]
-  },
-  {
-    "name": "HLS",
-    "samples": [
-      {
-        "name": "Apple 4x3 basic stream (TS)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8"
-      },
-      {
-        "name": "Apple 16x9 basic stream (TS)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
-      },
-      {
-        "name": "Apple master playlist advanced (TS)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8"
-      },
-      {
-        "name": "Apple master playlist advanced (FMP4)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
-      },
-      {
-        "name": "Apple media playlist (TS)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8"
-      },
-      {
-        "name": "Apple media playlist (AAC)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear0/prog_index.m3u8"
-      }
-    ]
-  },
-  {
-    "name": "SmoothStreaming",
-    "samples": [
-      {
-        "name": "Super speed (MP4, H264, Clear)",
-        "uri": "https://playready.directtaps.net/smoothstreaming/SSWSS720H264/SuperSpeedway_720.ism/Manifest"
-      },
-      {
-        "name": "Super speed (MP4, H264, PlayReady)",
-        "uri": "https://playready.directtaps.net/smoothstreaming/SSWSS720H264PR/SuperSpeedway_720.ism/Manifest",
-        "drm_scheme": "playready",
-        "drm_license_uri": "https://playready.directtaps.net/pr/svc/rightsmanager.asmx",
-        "drm_force_default_license_uri": true
-      }
-    ]
-  },
-  {
-    "name": "IMA sample ad tags",
-    "samples": [
-      {
-        "name": "Single inline linear",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator="
-      },
-      {
-        "name": "Single skippable inline",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dskippablelinear&correlator="
-      },
-      {
-        "name": "Single redirect linear",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirectlinear&correlator="
-      },
-      {
-        "name": "Single redirect error",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirecterror&nofb=1&correlator="
-      },
-      {
-        "name": "Single redirect broken (fallback)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dredirecterror&correlator="
-      },
-      {
-        "name": "VMAP pre-roll",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonly&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-roll + bumper",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpreonlybumper&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP post-roll",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpostonly&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP post-roll + bumper",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpostonlybumper&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-, mid- and post-rolls, single ads",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-roll single ad, mid-roll standard pod with 3 ads, post-roll single ad",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpod&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-roll single ad, mid-roll optimized pod with 3 ads, post-roll single ad",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpod&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-roll single ad, mid-roll standard pod with 3 ads, post-roll single ad (bumpers around all ad breaks)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostpodbumper&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-roll single ad, mid-roll optimized pod with 3 ads, post-roll single ad (bumpers around all ad breaks)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostoptimizedpodbumper&cmsid=496&vid=short_onecue&correlator="
-      },
-      {
-        "name": "VMAP pre-roll single ad, mid-roll standard pods with 5 ads every 10 seconds for 1:40, post-roll single ad",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&cmsid=496&vid=short_tencue&correlator="
-      },
-      {
-        "name": "VMAP empty midroll",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://vastsynthesizer.appspot.com/empty-midroll"
-      },
-      {
-        "name": "VMAP full, empty, full midrolls",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv",
-        "ad_tag_uri": "https://vastsynthesizer.appspot.com/empty-midroll-2"
-      },
-      {
-        "name": "VMAP midroll at 1765 s",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
-        "ad_tag_uri": "https://vastsynthesizer.appspot.com/midroll-large"
-      },
-      {
-        "name": "VMAP midroll ad pod at 5 s with 10 skippable ads",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
-        "ad_tag_uri": "https://vastsynthesizer.appspot.com/midroll-10-skippable-ads"
-      },
-      {
-        "name": "Playlist with three ad tags",
-        "playlist": [
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-10s.mp4",
-            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/single_ad_samples&ciu_szs=300x250&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ct%3Dlinear&correlator="
-          },
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/android-screens-25s.mp4",
-            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&cmsid=496&vid=short_onecue&correlator="
-          },
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
-            "ad_tag_uri": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=vmap&unviewed_position_start=1&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&cmsid=496&vid=short_tencue&correlator="
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Playlists",
-    "samples": [
-      {
-        "name": "Cats -> Dogs",
-        "playlist": [
-          {
-            "uri": "https://html5demos.com/assets/dizzy.mp4"
-          },
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
-          }
-        ]
-      },
-      {
-        "name": "Audio -> Video -> Audio",
-        "playlist": [
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4"
-          },
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
-          },
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4"
-          }
-        ]
-      },
-      {
-        "name": "Clear -> Enc -> Clear -> Enc -> Enc",
-        "playlist": [
-          {
-            "uri": "https://html5demos.com/assets/dizzy.mp4"
-          },
-          {
-            "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_sd.mpd",
-            "drm_scheme": "widevine",
-            "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-          },
-          {
-            "uri": "https://html5demos.com/assets/dizzy.mp4"
-          },
-          {
-            "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_sd.mpd",
-            "drm_scheme": "widevine",
-            "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-          },
-          {
-            "uri": "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears_sd.mpd",
-            "drm_scheme": "widevine",
-            "drm_license_uri": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
-          }
-        ]
-      },
-      {
-        "name": "Manual ad insertion",
-        "playlist": [
-          {
-            "uri": "https://html5demos.com/assets/dizzy.mp4",
-            "clip_end_position_ms": 10000
-          },
-          {
-            "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4",
-            "clip_end_position_ms": 5000
-          },
-          {
-            "uri": "https://html5demos.com/assets/dizzy.mp4",
-            "clip_start_position_ms": 10000
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "AV1",
-    "samples": [
-      {
-        "name": "SD (WebM, Clear)",
-        "uri": "https://storage.googleapis.com/wvmedia/2019/clear/av1/24/webm/llama_av1_480p_400.webm"
-      },
-      {
-        "name": "SD (WebM, Widevine cenc, L3)",
-        "uri": "https://storage.googleapis.com/wvmedia/2019/cenc/av1/24/webm/llama_av1_480p_400.webm",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_SW_SECURE_CRYPTO&provider=widevine_test"
-      },
-      {
-        "name": "SD (WebM, Widevine cenc, L1)",
-        "uri": "https://storage.googleapis.com/wvmedia/2019/cenc/av1/24/webm/llama_av1_480p_400.webm",
-        "drm_scheme": "widevine",
-        "drm_license_uri": "https://proxy.uat.widevine.com/proxy?video_id=GTS_HW_SECURE_ALL&provider=widevine_test"
-      }
-    ]
-  },
-  {
-    "name": "Subtitles",
-    "samples": [
-      {
-        "name": "TTML positioning",
-        "uri": "https://html5demos.com/assets/dizzy.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ttml/netflix_ttml_sample.xml",
-        "subtitle_mime_type": "application/ttml+xml",
-        "subtitle_language": "en"
-      },
-      {
-        "name": "TTML Japanese features",
-        "uri": "https://html5demos.com/assets/dizzy.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ttml/japanese-ttml.xml",
-        "subtitle_mime_type": "application/ttml+xml",
-        "subtitle_language": "ja"
-      },
-      {
-        "name": "TTML Netflix Japanese examples (IMSC1.1)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ttml/netflix_japanese_ttml.xml",
-        "subtitle_mime_type": "application/ttml+xml",
-        "subtitle_language": "ja"
-      },
-      {
-        "name": "WebVTT positioning",
-        "uri": "https://html5demos.com/assets/dizzy.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/webvtt/numeric-lines.vtt",
-        "subtitle_mime_type": "text/vtt",
-        "subtitle_language": "en"
-      },
-      {
-        "name": "WebVTT Japanese features",
-        "uri": "https://html5demos.com/assets/dizzy.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/webvtt/japanese.vtt",
-        "subtitle_mime_type": "text/vtt",
-        "subtitle_language": "ja"
-      },
-      {
-        "name": "SubStation Alpha positioning",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ssa/test-subs-position.ass",
-        "subtitle_mime_type": "text/x-ssa",
-        "subtitle_language": "en"
-      },
-      {
-        "name": "SubStation Alpha styling",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4",
-        "subtitle_uri": "https://storage.googleapis.com/exoplayer-test-media-1/ssa/test-subs-styling.ass",
-        "subtitle_mime_type": "text/x-ssa",
-        "subtitle_language": "en"
-      },
-      {
-        "name": "MPEG-4 Timed Text",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/dizzy-with-tx3g.mp4"
-      }
-    ]
-  },
-  {
-    "name": "Misc",
-    "samples": [
-      {
-        "name": "Dizzy (MP4)",
-        "uri": "https://html5demos.com/assets/dizzy.mp4"
-      },
-      {
-        "name": "Apple 10s (AAC)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear0/fileSequence0.aac"
-      },
-      {
-        "name": "Apple 10s (TS)",
-        "uri": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts"
-      },
-      {
-        "name": "Android screens (MKV)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
-      },
-      {
-        "name": "Screens 360p (WebM, VP9)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-vp9-360.webm"
-      },
-      {
-        "name": "Screens 480p (FMP4, H264)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-avc-baseline-480.mp4"
-      },
-      {
-        "name": "Screens 1080p (FMP4, H264)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/video-137.mp4"
-      },
-      {
-        "name": "Screens audio (FMP4)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/gen-3/screens/dash-vod-single-segment/audio-141.mp4"
-      },
-      {
-        "name": "Google Play (MP3)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-0/play.mp3"
-      },
-      {
-        "name": "Google Play (Ogg, Vorbis)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/ogg/play.ogg"
-      },
-      {
-        "name": "Google Play (Flac)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/flac/play.flac"
-      },
-      {
-        "name": "Big Buck Bunny video (FLV)",
-        "uri": "https://vod.leasewebcdn.com/bbb.flv?ri=1024&rs=150&start=0"
-      },
-      {
-        "name": "Big Buck Bunny 480p (MP4, AV1)",
-        "uri": "https://storage.googleapis.com/downloads.webmproject.org/av1/exoplayer/bbb-av1-480p.mp4"
-      },
-      {
-        "name": "One hour frame counter (MP4)",
-        "uri": "https://storage.googleapis.com/exoplayer-test-media-1/mp4/frame-counter-one-hour.mp4"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
       }
     ]
   }

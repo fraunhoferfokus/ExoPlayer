@@ -23,6 +23,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.content.res.AssetManager;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -92,6 +93,7 @@ public class SampleChooserActivity extends AppCompatActivity
 
     Intent intent = getIntent();
     String dataUri = intent.getDataString();
+    //dataUri = "https://raw.githubusercontent.com/fraunhoferfokus/dt-test-exoplayer/main/media.exolist.json";
     if (dataUri != null) {
       uris = new String[] {dataUri};
     } else {
@@ -327,8 +329,7 @@ public class SampleChooserActivity extends AppCompatActivity
             reader.nextString(); // Ignore.
             break;
           default:
-            throw ParserException.createForMalformedManifest(
-                "Unsupported name: " + name, /* cause= */ null);
+            throw ParserException.createForUnsupportedContainerFeature("Unsupported name: " + name);// ParserException("Unsupported name: " + name);
         }
       }
       reader.endObject();
@@ -416,8 +417,7 @@ public class SampleChooserActivity extends AppCompatActivity
             reader.endArray();
             break;
           default:
-            throw ParserException.createForMalformedManifest(
-                "Unsupported attribute name: " + name, /* cause= */ null);
+            throw ParserException.createForUnsupportedContainerFeature("Unsupported attribute name: " + name); //new ParserException("Unsupported attribute name: " + name);
         }
       }
       reader.endObject();
