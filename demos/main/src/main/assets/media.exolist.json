@@ -34,43 +34,43 @@
         "name": "NPVR Magenta",
         "uri": "https://appnpvfk20033.prod.sngtv.t-online.de:443/88888888/224/3736/2021/07/19/150000/120049010000000222902844/8343742244/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=2743,172.29.88.194,872&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441sI4PLZYaMd2%2BWV68TqK6BiV%2Fo2Otk5Bwo32YRWwcWsi%3A20210720134732%3AUTC%2C1086169643%2C79.215.217.49%2C20210720134732%2C01936238%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C300%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta anderer server",
         "uri": "https://slbrrmfk11100.prod.sngtv.t-online.de/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441uePcAUk8oln1QrgfjZs%2FZPfbARvqGDdy0FUnqq2nv2p%3A20210720143657%3AUTC%2C1086169643%2C79.215.217.49%2C20210720143657%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta 2",
         "uri": "https://appnpvfk20007.prod.sngtv.t-online.de:443/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441ti3v3eOvwKMVOfNY1h6HobfbARvqGDdy0FUnqq2nv2p%3A20210720142319%3AUTC%2C1086169643%2C79.215.217.49%2C20210720142319%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta Daniel",
         "uri": "https://appnpvfk20007.prod.sngtv.t-online.de/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441ti3v3eOvwKMVOfNY1h6HobfbARvqGDdy0FUnqq2nv2p%3A20210720142319%3AUTC%2C1086169643%2C79.215.217.49%2C20210720142319%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "Live",
         "uri": "https://ber-et-01--svc40.main.px.t-online.de/LCID3221228143.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228143/3221228143.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EJyc5Ch5qScekJZABAr_obQ%7EeBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN-uzGrr-WGCXQQ7JFtoRay81YL4aSpOyWbB4v3pmOJhUAlCWh3it_Un-tXgIkoM%3A20210720132406%3AUTC%2C1086169643%2C79.215.217.49%2C20210720132406%2Cdas-erste%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=1&sid=DD322D61274B89152808936BFBFDC94F&uid=120049010000000222902844&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "RTL Live",
         "uri": "https://ber-et-01--svc40.main.px.t-online.de/LCID3221228142.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228142/3221228142.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7E3xfHxvnZwT529Epjp-uXqg%7EeBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN-uzGrr-WGCXQQ7JFtoRay81YL4aSpOyWbB4v3pmOJhUAlCWh3it_Un-tXgIkoM%3A20210720132406%3AUTC%2C1086169643%2C79.215.217.49%2C20210720132406%2Crtl%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=3&sid=DD322D61274B89152808936BFBFDC94F&uid=120049010000000222902844&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta mit DRM",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta ohne DRM",
@@ -80,31 +80,31 @@
         "name": "NPVR Magenta bei Fame",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta bei Fame 2",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr2/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "NPVR Magenta bei Fame combined",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "Monk",
         "uri": "http://62.155.253.24:80/88888888/224/3730/2021/05/12/102000/120049010000000203550217/7775044010/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=3223,172.29.88.98,862&servicetype=4&accountinfo=9%2BSHXiuFaFzHVn%2FQmrqWh1GWRIeOYaFvhA7bztFWzw3dAONuz5pXMNHw98KVUC0%2BDo5%2FJfzv2gbSmGzhmOcw9M4rwB%2FKxg8Js5QjCf20LP9NZhtcm7yvmSp86pWLJa%2BBslx%2FsVFq1yhXan%2F55lsu%2BbvUvOQ2%2FGbmfU%2FEME7rZIdH5cOAxiSUwoL%2FSLRfLNVP%3A20210719100556%3AUTC,1042738960,176.63.31.252,20210719100556,zdf-neo,CDE6BB54F72929DFFDBA6AC78303ACEA,-1,1,1,,,11,fta_ott_new,,,8,120049010000000203550217,0,120049010000000203550217,00000000-0000-0000-e91d-05071b21a1e7,2,END&GuardEncType=2&uid=120049010000000203550217&sid=CDE6BB54F72929DFFDBA6AC78303ACEA&i=0&dp=0",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       },
       {
         "name": "Monk Fame",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/monk/monk.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=MTU0YTBmYzQtNDI5MC0zNmQ1LWI4YmQtNWZmM2M4OWFhODFj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWNmNzFlYTItYzkwOC0zYmE0LWFjYTMtZDMwOWFlMTVmNmNk"
       }
     ]
   }
