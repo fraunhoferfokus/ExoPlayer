@@ -3,6 +3,12 @@
     "name": "Telekom",
     "samples": [
       {
+        "name": "Keine gute Tat_MAIN_MOVIE SD_HEVC_DASH",
+        "uri": "https://xs22.tv.telekom.net/bpk-vod/vod_nfs/default/test-9221438342940938666/test-9221438342940938666/index.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://widevine.entitlement.eu.theplatform.com/wv/web/ModularDrm/getRawWidevineLicense?form=json&schema=1.0&token=eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJtZGV0ZXN0LWFnZHIvMTIwMDQ5MDEwMDAwMDAwMDA0MDk4MDg3IiwiaXNzIjoiMSIsImV4cCI6MTYzNDI3NzIwNiwiaWF0IjoxNjM0MTkwODA2MTI2LCJqdGkiOiIxYzIxNjE0NC0wNWZhLTQ2Y2YtOTQyNC04YmNkMjM4NGZkNDAiLCJkaWQiOiJtZGV0ZXN0LWFnZHIiLCJ1bm0iOiIxMjAwNDkwMTAwMDAwMDAwMDQwOTgwODciLCJjdHgiOiJ7XCJpZFwiOlwiMTIwMDQ5MDEwMDAwMDAwMDA0MDk4MDg3XCIsXCJ1c2VyTmFtZVwiOlwiMTIwMDQ5MDEwMDAwMDAwMDA0MDk4MDg3XCIsXCJlbWFpbFwiOlwiXCIsXCJmdWxsTmFtZVwiOlwiXCIsXCJhdHRyaWJ1dGVzXCI6e1widXJuOnRoZXBsYXRmb3JtOmNvbnN1bWVyOmFjY291bnRcIjpcImh0dHBzOi8vYWNjb3VudHMuYXVkaWVuY2UuZGV2Lm9hLnlvLWRpZ2l0YWwuY29tL2FjY291bnRzLzI3MDkzNTM5NTkvNTJkZjkyZjgtMTUzNy00N2UwLTkyNDEtMzkyODY3ZDEzMDRlXCIsXCJ1cm46dGhlcGxhdGZvcm06Y29uc3VtZXI6YWNjb3VudDpwZXJzb25hXCI6XCJodHRwczovL2FjY291bnRzLmF1ZGllbmNlLmRldi5vYS55by1kaWdpdGFsLmNvbS9hY2NvdW50cy8yNzA5MzUzOTU5LzUyZGY5MmY4LTE1MzctNDdlMC05MjQxLTM5Mjg2N2QxMzA0ZS9wZXJzb25hcy8xN2UxZDUzMy0yYWQxLTQ0M2UtOGM4Mi01YTg4ODZmOTczZDVcIn19XG4iLCJvaWQiOm51bGx9.A9ahunWd5JHB_alvyXZue2N4UabZZLISYy82KUoJL7yP_IaTaoO2iqrLgFkKuHw1uS2DYiJKBnKSk2Fy3X1n2xxYH0vgdH2S3EKK_pKaEnYVoCV8WPryYZDw93L0b4f5h-4ibMdsbCngFvrcIgJGBBkgn4Ep36HWdaTRTlCaSQBDCA9WZWvo0Z3Kr5JCd89rb_NrREP2jFUImACu0R_iWZ2W-q6_RP3ht3u-LydKkGHA8csOZqaOuDBWr0-PgCxgHcClHRLXp1gyqhDkJxn7JoriNf5I3yoal11tpK83hkywskXpfBITq2lJ-TTnJcyK_lsGwxuyoNYifPmJFmiCxw&account=http://access.auth.theplatform.com/data/Account/2709353959&releasePid=MQwhJAfRCWa1"
+      },
+      {
         "name": "Test",
         "uri": "http://xs22.tv.telekom.net/bpk-vod/vod_clear/default/test-2021-06-03-002/test-2021-06-03-002/index.mpd"
       },
@@ -18,19 +24,25 @@
         "name": "ARD Live",
         "uri": "https://svc40.main.sl.t-online.de/LCID3221228143.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228143/3221228143.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EJyc5Ch5qScekJZABAr_obQ%7EONmPOKXrpABMm-nvltwjX57I64b0A2qdssNd0hv6wiTdAONuz5pXMNHw98KVUC0-egue8je2JYcL7YDlJrqGWxV1g_MZiTuOS0LsSkByEEJx0Qy_WqwCQYKlRnMgD3oD%3A20210903124521%3AUTC%2C1072142205%2C194.95.168.20%2C20210903124521%2Cdas-erste%2C3D5CEA8AADCDEF942341F9E4B68BA4E3%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000203004089%2C0%2C120049010000000203004089%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=4&sid=3D5CEA8AADCDEF942341F9E4B68BA4E3&uid=120049010000000203004089&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=YzI5MzkwZDgtZGRmOS0zY2M5LTlmYzYtNmZhYTQwMzU5YTYy"
       },
       {
         "name": "ZDF Live",
         "uri": "https://svc40.main.sl.t-online.de/LCID3221228195.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228195/3221228195.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EdEFgGZ8e5O1KgF2FPUSiew%7EONmPOKXrpABMm-nvltwjX57I64b0A2qdssNd0hv6wiTdAONuz5pXMNHw98KVUC0-egue8je2JYcL7YDlJrqGWxV1g_MZiTuOS0LsSkByEEJx0Qy_WqwCQYKlRnMgD3oD%3A20210903124521%3AUTC%2C1072142205%2C194.95.168.20%2C20210903124521%2Czdf%2C3D5CEA8AADCDEF942341F9E4B68BA4E3%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000203004089%2C0%2C120049010000000203004089%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=2&sid=3D5CEA8AADCDEF942341F9E4B68BA4E3&uid=120049010000000203004089&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=YzI5MzkwZDgtZGRmOS0zY2M5LTlmYzYtNmZhYTQwMzU5YTYy"
       },
       {
         "name": "RTL Live",
         "uri": "https://svc40.main.sl.t-online.de/LCID3221228142.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228142/3221228142.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7E3xfHxvnZwT529Epjp-uXqg%7EONmPOKXrpABMm-nvltwjX57I64b0A2qdssNd0hv6wiTdAONuz5pXMNHw98KVUC0-egue8je2JYcL7YDlJrqGWxV1g_MZiTuOS0LsSkByEEJx0Qy_WqwCQYKlRnMgD3oD%3A20210903124521%3AUTC%2C1072142205%2C194.95.168.20%2C20210903124521%2Crtl%2C3D5CEA8AADCDEF942341F9E4B68BA4E3%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000203004089%2C0%2C120049010000000203004089%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=5&sid=3D5CEA8AADCDEF942341F9E4B68BA4E3&uid=120049010000000203004089&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=YzI5MzkwZDgtZGRmOS0zY2M5LTlmYzYtNmZhYTQwMzU5YTYy"
+      },
+      {
+        "name": "ZDF Live 2",
+        "uri": "https://svc40.main.sl.t-online.de/LCID3221228195.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228195/3221228195.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EdEFgGZ8e5O1KgF2FPUSiew%7EONmPOKXrpABMm-nvltwjX57I64b0A2qdssNd0hv6wiTdAONuz5pXMNHw98KVUC0-egue8je2JYcL7YDlJrqGWxV1g_MZiTuOS0LsSkByEEJx0Qy_WqwCQYKlRnMgD3oD%3A20210903124521%3AUTC%2C1072142205%2C194.95.168.20%2C20210903124521%2Czdf%2C3D5CEA8AADCDEF942341F9E4B68BA4E3%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000203004089%2C0%2C120049010000000203004089%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=2&sid=3D5CEA8AADCDEF942341F9E4B68BA4E3&uid=120049010000000203004089&audioLanguage=deu",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=YzI5MzkwZDgtZGRmOS0zY2M5LTlmYzYtNmZhYTQwMzU5YTYy"
       }
     ]
   },
@@ -41,31 +53,31 @@
         "name": "NPVR Magenta",
         "uri": "https://appnpvfk20033.prod.sngtv.t-online.de:443/88888888/224/3736/2021/07/19/150000/120049010000000222902844/8343742244/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=2743,172.29.88.194,872&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441sI4PLZYaMd2%2BWV68TqK6BiV%2Fo2Otk5Bwo32YRWwcWsi%3A20210720134732%3AUTC%2C1086169643%2C79.215.217.49%2C20210720134732%2C01936238%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C300%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta anderer server",
         "uri": "https://slbrrmfk11100.prod.sngtv.t-online.de/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441uePcAUk8oln1QrgfjZs%2FZPfbARvqGDdy0FUnqq2nv2p%3A20210720143657%3AUTC%2C1086169643%2C79.215.217.49%2C20210720143657%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta 2",
         "uri": "https://appnpvfk20007.prod.sngtv.t-online.de:443/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441ti3v3eOvwKMVOfNY1h6HobfbARvqGDdy0FUnqq2nv2p%3A20210720142319%3AUTC%2C1086169643%2C79.215.217.49%2C20210720142319%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta Daniel",
         "uri": "https://appnpvfk20007.prod.sngtv.t-online.de/88888888/224/15724/2020/04/20/151200/120049010000000222902844/4598051454/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=883,172.29.67.11,390&servicetype=4&accountinfo=eBZFfnCRf2UmjwqzZXEsgUlOqdbuDJs4F45klOT8YRB9Ij8FEXQy5NG06sWeylBuAN%2BuzGrr%2BWGCXQQ7JFtoRVhRIwU1JoMcjodEdsThs%2F6YgVe4l0zerEChi25bjbvLtqc8wHDw4hM%2BtRh1FL441ti3v3eOvwKMVOfNY1h6HobfbARvqGDdy0FUnqq2nv2p%3A20210720142319%3AUTC%2C1086169643%2C79.215.217.49%2C20210720142319%2Ctele5%2CDD322D61274B89152808936BFBFDC94F%2C-1%2C1%2C1%2C%2C%2C11%2Cfta_ott_new%2C%2C%2C8%2C120049010000000222902844%2C0%2C120049010000000222902844%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta mit DRM",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta ohne DRM",
@@ -75,37 +87,67 @@
         "name": "NPVR Magenta bei Fame",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta bei Fame 2",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr2/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "NPVR Magenta bei Fame combined",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
+      },
+      {
+        "name": "NPVR Magenta bei Fame (high)",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video_high.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
+      },
+      {
+        "name": "NPVR Magenta bei Fame (low)",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video_low.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
+      },
+      {
+        "name": "NPVR Magenta bei Fame no segments (high & low)",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video_just_init.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
+      },
+      {
+        "name": "NPVR Magenta bei Fame no segments (high)",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video_just_init_high.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
+      },
+      {
+        "name": "NPVR Magenta bei Fame no segments (low)",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/npvr_combined/npvr_video_just_init_low.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "Monk",
         "uri": "http://62.155.253.24:80/88888888/224/3730/2021/05/12/102000/120049010000000203550217/7775044010/index.m3u8/PolicyMode_hls2dash.MPD?cloudpvr=3223,172.29.88.98,862&servicetype=4&accountinfo=9%2BSHXiuFaFzHVn%2FQmrqWh1GWRIeOYaFvhA7bztFWzw3dAONuz5pXMNHw98KVUC0%2BDo5%2FJfzv2gbSmGzhmOcw9M4rwB%2FKxg8Js5QjCf20LP9NZhtcm7yvmSp86pWLJa%2BBslx%2FsVFq1yhXan%2F55lsu%2BbvUvOQ2%2FGbmfU%2FEME7rZIdH5cOAxiSUwoL%2FSLRfLNVP%3A20210719100556%3AUTC,1042738960,176.63.31.252,20210719100556,zdf-neo,CDE6BB54F72929DFFDBA6AC78303ACEA,-1,1,1,,,11,fta_ott_new,,,8,120049010000000203550217,0,120049010000000203550217,00000000-0000-0000-e91d-05071b21a1e7,2,END&GuardEncType=2&uid=120049010000000203550217&sid=CDE6BB54F72929DFFDBA6AC78303ACEA&i=0&dp=0",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "Monk Fame",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/monk/monk.mpd",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=NWMwNDc4ZTktOTYxOC0zNjBkLWExNDYtY2RlNzIzMThkMTdl"
       },
       {
         "name": "Monk Fame PlayReady",
         "uri": "https://dash.fokus.fraunhofer.de/tests/dsi/magentatests/manifests/monk/monk.mpd",
         "drm_scheme": "playready",
-        "drm_license_uri": "https://vmxdrmdatlb1.sda.t-online.de/playready/RightsManager.asmx?deviceId=M2U0NGE5MjQtZWFkYS0zMDczLTlmNmQtNDgxNDZjNjk5M2Nj"
+        "drm_license_uri": "https://vmxdrmdatlb1.sda.t-online.de/playready/RightsManager.asmx?deviceId=NGQ2ZGY4ZDgtNjIzNS0zMTBkLTgwOGMtYTI5NmRjZWExYmQy"
       }
     ]
   },
@@ -127,6 +169,384 @@
       {
         "name": "Description",
         "uri": "http://dash.fokus.fraunhofer.de/dt/subtitles/description.mpd"
+      }
+    ]
+  },
+  {
+    "name": "Lebensprüfungen Streams",
+    "samples": [
+      {
+        "name": "Original",
+        "uri": "http://mchn0-eo-02.svc27.main.om.t-online.de/dash05/dashstream/streaming/megathek_bbc/9221438342941584501/637627962210561916/Lebenspruefungen-Main_Movie-9221571562372217470_deu_20_1080k-HEVC-SD_HD_HEVC_DASH.mpd?streamProfile=Identity",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },{
+        "name": "All",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/all.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.1.de.mp4a.40.2.133000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/audio.1.de.mp4a.40.2.133000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.2.de.ec-3.227000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/audio.2.de.ec-3.227000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.3.en.mp4a.40.2.133000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/audio.3.en.mp4a.40.2.133000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.4.en.ec-3.227000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/audio.4.en.ec-3.227000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.1.384x216.hvc1.0.4.L60.90.161000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.1.384x216.hvc1.0.4.L60.90.161000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.2.512x288.hvc1.0.4.L63.90.427000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.2.512x288.hvc1.0.4.L63.90.427000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.3.640x360.hvc1.0.4.L63.90.783000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.3.640x360.hvc1.0.4.L63.90.783000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.4.768x432.hvc1.0.4.L90.90.1082000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.4.768x432.hvc1.0.4.L90.90.1082000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.5.1280x720.hvc1.0.4.L93.90.2192000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.5.1280x720.hvc1.0.4.L93.90.2192000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.6.1920x1080.hvc1.0.4.L120.90.4273000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.6.1920x1080.hvc1.0.4.L120.90.4273000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.7.1920x1080.hvc1.0.4.L120.90.5665000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/lebensprufungen/video.7.1920x1080.hvc1.0.4.L120.90.5665000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTg0NTAxPC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+YzJmYzQxZTAtMWFkOS0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Manhattan Streams",
+    "samples": [
+      {
+        "name": "Original",
+        "uri": "http://mchn0-eo-01.svc27.main.om.t-online.de/dash10/dashstream/streaming/lionsgate_svod/9221438342941580236/637608359467480739/Manhattan-Main_Movie-9221571562372215528_v2_deu_20_1080k-HEVC-SD_HD_HEVC_DASH.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },{
+        "name": "All",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/all.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.1.de.mp4a.40.2.133000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/audio.1.de.mp4a.40.2.133000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.2.de.ec-3.227000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/audio.2.de.ec-3.227000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.3.en.mp4a.40.2.133000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/audio.3.en.mp4a.40.2.133000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "audio.4.en.ec-3.227000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/audio.4.en.ec-3.227000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "text.1.de.stpp.1000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/text.1.de.stpp.1000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.1.384x216.hvc1.0.4.L60.90.160000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.1.384x216.hvc1.0.4.L60.90.160000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.2.512x288.hvc1.0.4.L63.90.426000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.2.512x288.hvc1.0.4.L63.90.426000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.3.640x360.hvc1.0.4.L63.90.783000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.3.640x360.hvc1.0.4.L63.90.783000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.4.768x432.hvc1.0.4.L90.90.1080000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.4.768x432.hvc1.0.4.L90.90.1080000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.5.1280x720.hvc1.0.4.L93.90.2187000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.5.1280x720.hvc1.0.4.L93.90.2187000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.6.1920x1080.hvc1.0.4.L120.90.4250000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.6.1920x1080.hvc1.0.4.L120.90.4250000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      },
+      {
+        "name": "video.7.1920x1080.hvc1.0.4.L120.90.5647000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/manhattan/video.7.1920x1080.hvc1.0.4.L120.90.5647000.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://licf-iptv.dmm.t-online.de/v1.0/WidevineLicenseAcquisition.ashx",
+        "drm_key_request_properties": {
+          "LAPB": "PGxhcGIgdmVyc2lvbj0iMiI+PGNvbnRlbnRObz45MjIxNDM4MzQyOTQxNTgwMjM2PC9jb250ZW50Tm8+PHByb2ZpbGU+c2wtd2luZG93czwvcHJvZmlsZT48YXV0aCB0eXBlPSJzdHMiPkVDQnFHM1k0VXMxS3JZa0xKaEE1Vm80WUFBRUhxQUFBQVh3SVJoMHhBQUFCZkFpei1qRUNBUWdBQUFGNzd0N1drZ0FJQUFBQmUtN2UxcExhYU1WTDRIUW5YY19oUzZYeHVxUGpnWVBuWndFTUVnQkpBUUFBQUFJQmtYZG5FeVVBV2dFRVozVnBaQUFZTVRBd01EUTVNREUxTlRFeE1qYzFORFUwTnpRd01EQXhBUVJ1WVcxbEFDNUVaWFYwYzJOb1pTQlVaV3hsYTI5dElFRkhJRWRJVXlCTGIyNTZaWEp1ZW1WdWRISmhiR1VnUlhWeWIzQmhBUVJ3TVRBd0FBRXdBUVIxYzNSaEFBRXpBUVp6ZEhOZlpYTUFMR0YzT1ZCQmRuWjBUbVZKYkhGdVNTdHhlSFpxYjJOVFNXWmtZbU4yTTBobFlWcE5ZbTlMZDNWWWNYYzlBb0VwQW9CeEFnQlJBZ1lYQWc2V0FnRkhBZzZEQWc1X0FnNlhBZzZVQWczY0FnNWpBbzZBQWc2RkFnNkJBZzVsQWdJRkFnSURBZ0lCQWdJSEFnNlJBZzVlQWc1ZEFnNWJBbzRZQWc0NUFvNTJBZzQ5QWc1YUFvNGVBbzRXQWc1dEFnNXJBZzV2QWczaEFnNUVBZzVEQW80a0FvVmJBbzROQWczeEFnM3pBZzN5QWczbEFnM2tBZzVrQW80akFvMkVBbzRNQW9JVEFvSVJBZzVtQW80bUFvNFBBbzJJQW80bEFvMlFBbzRPQW8yTUFvNTRBbzU1QW80b0FvNFFBZzJZQW8yVUFnNkpBZzV5QW80dkFvNHVBZzQzQW80dEFvNHNBZzQ0QWc0cEFnM21BZzMxQWczb0FnM25BbzRuQW8yYUFvMmNBZzV1QWc1c0FvUE5Bb081QUFBPTwvYXV0aD48YWdlbnQ+V0VCLU1UVjwvYWdlbnQ+PHJlY292ZXJ5IGFsbG93PSJmYWxzZSIvPjxyZXF1ZXN0SWQ+OTdkZWM1NjAtMWFkOC0xMWVjLTlkZmYtZTE2ODhkZGI4ODZmPC9yZXF1ZXN0SWQ+PHNlcnZpY2VJZD5NQUdFTlRBVFZBUFA8L3NlcnZpY2VJZD48L2xhcGI+",
+          "CustomClientId": "OWI1NjhmNGItMjZlMy00NWE1LWI3ZGQtN2IwYzMyMjUxMzIx"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Reference Streams",
+    "samples": [
+      {
+        "name": "Guardians of the Galaxy_MAIN_MOVIE HD_H.264_ISMV",
+        "uri": "https://xs22.tv.telekom.net/bpk-vod/vod_nfs/default/test-9221438342940823727/test-9221438342940823727/index.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://widevine.entitlement.eu.theplatform.com/wv/web/ModularDrm/getRawWidevineLicense?form=json&schema=1.0&token=eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJtZGV0ZXN0LWFnZHIvMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1IiwiaXNzIjoiMSIsImV4cCI6MTYzNDgwMTY5NywiaWF0IjoxNjM0NzE1Mjk3NTMxLCJqdGkiOiJjMTU4ZWE2NS1hMTQxLTQ3YzctODk2MS0zZGZjZjAxZGZlZjIiLCJkaWQiOiJtZGV0ZXN0LWFnZHIiLCJ1bm0iOiIxMjAwNDkwMTAwMDAwMDAwMDAxODE4MzUiLCJjdHgiOiJ7XCJpZFwiOlwiMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1XCIsXCJ1c2VyTmFtZVwiOlwiMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1XCIsXCJlbWFpbFwiOlwiXCIsXCJmdWxsTmFtZVwiOlwiXCIsXCJhdHRyaWJ1dGVzXCI6e1widXJuOnRoZXBsYXRmb3JtOmNvbnN1bWVyOmFjY291bnRcIjpcImh0dHBzOi8vYWNjb3VudHMuYXVkaWVuY2UuZGV2Lm9hLnlvLWRpZ2l0YWwuY29tL2FjY291bnRzLzI3MDkzNTM5NTkvMDNkNzYwMTYtODczYi00YTlhLWJmYWItOGQ5Njg3NDRhNjYxXCIsXCJ1cm46dGhlcGxhdGZvcm06Y29uc3VtZXI6YWNjb3VudDpwZXJzb25hXCI6XCJodHRwczovL2FjY291bnRzLmF1ZGllbmNlLmRldi5vYS55by1kaWdpdGFsLmNvbS9hY2NvdW50cy8yNzA5MzUzOTU5LzAzZDc2MDE2LTg3M2ItNGE5YS1iZmFiLThkOTY4NzQ0YTY2MS9wZXJzb25hcy9iM2MyNzA2NS1iZWQ0LTRlYjEtYTgxZC0wZjE2MzE5MTRmYWZcIn19XG4iLCJvaWQiOm51bGx9.NyOFzJuW28GAXeJ1-gV2tEzAMo1b18ux0gEka8OB-9oJImC1IdbWW0zSk7lHxbcNoYAUQDUmrzp7jfX3jgPfkdSQGeVFn6ACPJxqqrZE1dsx3SsrsVFjEvoXjg-jm56NVQUqGwEm24HqSchugA9BHKqQ3wvnQfKwj-0QDJ7_IZGA4XbkOz9SBeMtxl4izfmG_6U13JVZ2vaCQhM8puZXs3YYGKyPzKhe6SXI7swcc4qGeggyLrvUw97MnhNLEL6ZFTR1_Tn4gjx7jzuGu0Zdam8KT7pZbQ98JxHFOLftyPul88F0OQUoZMKzOjLB1y67iSW2HGyVU0sYdr5ekyeFUQ&account=http://access.auth.theplatform.com/data/Account/2709353959&releasePid=78_ZeEbF5BK7"
+      },
+      {
+        "name": "After Earth_MAIN_MOVIE SD_HEVC_DASH",
+        "uri": "https://xs22.tv.telekom.net/bpk-vod/vod_nfs/default/test-9221438342940914278/test-9221438342940914278/index.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://widevine.entitlement.eu.theplatform.com/wv/web/ModularDrm/getRawWidevineLicense?form=json&schema=1.0&token=eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJtZGV0ZXN0LWFnZHIvMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1IiwiaXNzIjoiMSIsImV4cCI6MTYzNDgwMTY5NywiaWF0IjoxNjM0NzE1Mjk3NTMxLCJqdGkiOiJjMTU4ZWE2NS1hMTQxLTQ3YzctODk2MS0zZGZjZjAxZGZlZjIiLCJkaWQiOiJtZGV0ZXN0LWFnZHIiLCJ1bm0iOiIxMjAwNDkwMTAwMDAwMDAwMDAxODE4MzUiLCJjdHgiOiJ7XCJpZFwiOlwiMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1XCIsXCJ1c2VyTmFtZVwiOlwiMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1XCIsXCJlbWFpbFwiOlwiXCIsXCJmdWxsTmFtZVwiOlwiXCIsXCJhdHRyaWJ1dGVzXCI6e1widXJuOnRoZXBsYXRmb3JtOmNvbnN1bWVyOmFjY291bnRcIjpcImh0dHBzOi8vYWNjb3VudHMuYXVkaWVuY2UuZGV2Lm9hLnlvLWRpZ2l0YWwuY29tL2FjY291bnRzLzI3MDkzNTM5NTkvMDNkNzYwMTYtODczYi00YTlhLWJmYWItOGQ5Njg3NDRhNjYxXCIsXCJ1cm46dGhlcGxhdGZvcm06Y29uc3VtZXI6YWNjb3VudDpwZXJzb25hXCI6XCJodHRwczovL2FjY291bnRzLmF1ZGllbmNlLmRldi5vYS55by1kaWdpdGFsLmNvbS9hY2NvdW50cy8yNzA5MzUzOTU5LzAzZDc2MDE2LTg3M2ItNGE5YS1iZmFiLThkOTY4NzQ0YTY2MS9wZXJzb25hcy9iM2MyNzA2NS1iZWQ0LTRlYjEtYTgxZC0wZjE2MzE5MTRmYWZcIn19XG4iLCJvaWQiOm51bGx9.NyOFzJuW28GAXeJ1-gV2tEzAMo1b18ux0gEka8OB-9oJImC1IdbWW0zSk7lHxbcNoYAUQDUmrzp7jfX3jgPfkdSQGeVFn6ACPJxqqrZE1dsx3SsrsVFjEvoXjg-jm56NVQUqGwEm24HqSchugA9BHKqQ3wvnQfKwj-0QDJ7_IZGA4XbkOz9SBeMtxl4izfmG_6U13JVZ2vaCQhM8puZXs3YYGKyPzKhe6SXI7swcc4qGeggyLrvUw97MnhNLEL6ZFTR1_Tn4gjx7jzuGu0Zdam8KT7pZbQ98JxHFOLftyPul88F0OQUoZMKzOjLB1y67iSW2HGyVU0sYdr5ekyeFUQ&account=http://access.auth.theplatform.com/data/Account/2709353959&releasePid=gmghNveZfwzW"
+      },
+
+      {
+        "name": "Keine gute Tat_MAIN_MOVIE 4K_HEVC_DASH",
+        "uri": "https://xs22.tv.telekom.net/bpk-vod/vod_nfs/default/test-9221438342940938664/test-9221438342940938664/index.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_uri": "https://widevine.entitlement.eu.theplatform.com/wv/web/ModularDrm/getRawWidevineLicense?form=json&schema=1.0&token=eyJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJtZGV0ZXN0LWFnZHIvMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1IiwiaXNzIjoiMSIsImV4cCI6MTYzNDgwMTY5NywiaWF0IjoxNjM0NzE1Mjk3NTMxLCJqdGkiOiJjMTU4ZWE2NS1hMTQxLTQ3YzctODk2MS0zZGZjZjAxZGZlZjIiLCJkaWQiOiJtZGV0ZXN0LWFnZHIiLCJ1bm0iOiIxMjAwNDkwMTAwMDAwMDAwMDAxODE4MzUiLCJjdHgiOiJ7XCJpZFwiOlwiMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1XCIsXCJ1c2VyTmFtZVwiOlwiMTIwMDQ5MDEwMDAwMDAwMDAwMTgxODM1XCIsXCJlbWFpbFwiOlwiXCIsXCJmdWxsTmFtZVwiOlwiXCIsXCJhdHRyaWJ1dGVzXCI6e1widXJuOnRoZXBsYXRmb3JtOmNvbnN1bWVyOmFjY291bnRcIjpcImh0dHBzOi8vYWNjb3VudHMuYXVkaWVuY2UuZGV2Lm9hLnlvLWRpZ2l0YWwuY29tL2FjY291bnRzLzI3MDkzNTM5NTkvMDNkNzYwMTYtODczYi00YTlhLWJmYWItOGQ5Njg3NDRhNjYxXCIsXCJ1cm46dGhlcGxhdGZvcm06Y29uc3VtZXI6YWNjb3VudDpwZXJzb25hXCI6XCJodHRwczovL2FjY291bnRzLmF1ZGllbmNlLmRldi5vYS55by1kaWdpdGFsLmNvbS9hY2NvdW50cy8yNzA5MzUzOTU5LzAzZDc2MDE2LTg3M2ItNGE5YS1iZmFiLThkOTY4NzQ0YTY2MS9wZXJzb25hcy9iM2MyNzA2NS1iZWQ0LTRlYjEtYTgxZC0wZjE2MzE5MTRmYWZcIn19XG4iLCJvaWQiOm51bGx9.NyOFzJuW28GAXeJ1-gV2tEzAMo1b18ux0gEka8OB-9oJImC1IdbWW0zSk7lHxbcNoYAUQDUmrzp7jfX3jgPfkdSQGeVFn6ACPJxqqrZE1dsx3SsrsVFjEvoXjg-jm56NVQUqGwEm24HqSchugA9BHKqQ3wvnQfKwj-0QDJ7_IZGA4XbkOz9SBeMtxl4izfmG_6U13JVZ2vaCQhM8puZXs3YYGKyPzKhe6SXI7swcc4qGeggyLrvUw97MnhNLEL6ZFTR1_Tn4gjx7jzuGu0Zdam8KT7pZbQ98JxHFOLftyPul88F0OQUoZMKzOjLB1y67iSW2HGyVU0sYdr5ekyeFUQ&account=http://access.auth.theplatform.com/data/Account/2709353959&releasePid=iJ4TBc0Szphb"
+      },
+      {
+        "name": "Envivio",
+        "uri": "https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd"
+      },
+      {
+        "name": "Original",
+        "uri": "https://xs27.la.t-online.de/dash01/dashstream/streaming/x_ngtv_vl/195593/636519739658888524/DTAG-test-clip-23_976p_deu_20_1080k-HEVC-SD_4K_HEVC_DASH.mpd"
+      },
+      {
+        "name": "All",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/all.mpd"
+      },
+      {
+        "name": "audio.1.de.mp4a.40.2.127706",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/audio.1.de.mp4a.40.2.127706.mpd"
+      },
+      {
+        "name": "audio.2.de.ec-3.224000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/audio.2.de.ec-3.224000.mpd"
+      },
+      {
+        "name": "audio.3.en.mp4a.40.2.127579",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/audio.3.en.mp4a.40.2.127579.mpd"
+      },
+      {
+        "name": "audio.4.en.ec-3.224000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/audio.4.en.ec-3.224000.mpd"
+      },
+      {
+        "name": "audio.5.fr.mp4a.40.2.127583",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/audio.5.fr.mp4a.40.2.127583.mpd"
+      },
+      {
+        "name": "audio.6.fr.ec-3.224000",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/audio.6.fr.ec-3.224000.mpd"
+      },
+      {
+        "name": "video.1.384x216.hvc1.2.4.L60.B0.149827",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.1.384x216.hvc1.2.4.L60.B0.149827.mpd"
+      },
+      {
+        "name": "video.2.512x288.hvc1.2.4.L63.B0.419382",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.2.512x288.hvc1.2.4.L63.B0.419382.mpd"
+      },
+      {
+        "name": "video.3.640x360.hvc1.2.4.L63.B0.779060",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.3.640x360.hvc1.2.4.L63.B0.779060.mpd"
+      },
+      {
+        "name": "video.4.768x432.hvc1.2.4.L90.B0.1078653",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.4.768x432.hvc1.2.4.L90.B0.1078653.mpd"
+      },
+      {
+        "name": "video.5.1280x720.hvc1.2.4.L93.B0.2196516",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.5.1280x720.hvc1.2.4.L93.B0.2196516.mpd"
+      },
+      {
+        "name": "video.6.1920x1080.hvc1.2.4.L120.B0.4292364",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.6.1920x1080.hvc1.2.4.L120.B0.4292364.mpd"
+      },
+      {
+        "name": "video.7.1920x1080.hvc1.2.4.L120.B0.5690297",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.7.1920x1080.hvc1.2.4.L120.B0.5690297.mpd"
+      },
+      {
+        "name": "video.8.3840x2160.hvc1.2.4.L150.B0.7983226",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.8.3840x2160.hvc1.2.4.L150.B0.7983226.mpd"
+      },
+      {
+        "name": "video.9.3840x2160.hvc1.2.4.L150.B0.11975441",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.9.3840x2160.hvc1.2.4.L150.B0.11975441.mpd"
+      },
+      {
+        "name": "video.10.3840x2160.hvc1.2.4.L150.B0.15963558",
+        "uri": "https://dash.fokus.fraunhofer.de/tests/ggu/dash/reference/video.10.3840x2160.hvc1.2.4.L150.B0.15963558.mpd"
       }
     ]
   },
