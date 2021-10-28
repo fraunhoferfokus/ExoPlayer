@@ -1,14 +1,46 @@
 [
   {
-    "name": "Telekom",
+    "name": "Test Streams",
     "samples": [
       {
-        "name": "Test",
-        "uri": "http://xs22.tv.telekom.net/bpk-vod/vod_clear/default/test-2021-06-03-002/test-2021-06-03-002/index.mpd"
+        "name": "nature720p_2m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/nature720p2m/nature720p_2m.mpd"
       },
       {
-        "name": "Test (HTTPS)",
-        "uri": "https://xs22.tv.telekom.net/bpk-vod/vod_clear/default/test-2021-06-03-002/test-2021-06-03-002/index.mpd"
+        "name": "nature1080p",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/nature1080p/nature1080p.mpd"
+      },
+      {
+        "name": "nature1080p_8m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/nature1080p8m/nature1080p_8m.mpd"
+      },
+      {
+        "name": "nature2160p_8m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/nature2160p8m/nature2160p_8m.mpd"
+      },
+      {
+        "name": "nature2160p_15m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/nature2160p15m/nature2160p_15m.mpd"
+      },
+      {
+        "name": "animation720p_2m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/animation720p2m/animation720p_2m.mpd"
+      },
+      {
+        "name": "animation1080p_5m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/animation1080p5m/animation1080p_5m.mpd"
+      },
+      {
+        "name": "animation1080p_8m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/animation1080p8m/animation1080p_8m.mpd"
+      },
+      {
+        "name": "animation2160p_8m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/animation2160p8m/animation2160p_8m.mpd"
+      },
+      {
+        "name": "aimation2160p_15m",
+        "uri": "http://elive.fokus.fraunhofer.de/websrv/ecostreaming/animation2160p15m/aimation2160p_15m.mpd"
       }
     ]
   }
