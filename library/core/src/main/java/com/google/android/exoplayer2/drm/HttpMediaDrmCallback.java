@@ -17,6 +17,7 @@ package com.google.android.exoplayer2.drm;
 
 import android.net.Uri;
 import android.text.TextUtils;
+import android.util.Base64;
 import androidx.annotation.Nullable;
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.drm.ExoMediaDrm.KeyRequest;
@@ -27,8 +28,11 @@ import com.google.android.exoplayer2.upstream.HttpDataSource;
 import com.google.android.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
 import com.google.android.exoplayer2.upstream.StatsDataSource;
 import com.google.android.exoplayer2.util.Assertions;
+import com.google.android.exoplayer2.util.Log;
 import com.google.android.exoplayer2.util.Util;
 import com.google.common.collect.ImmutableMap;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -174,7 +178,22 @@ public final class HttpMediaDrmCallback implements MediaDrmCallback {
       while (true) {
         DataSourceInputStream inputStream = new DataSourceInputStream(dataSource, dataSpec);
         try {
+          /*
+          BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
+          StringBuilder total = new StringBuilder();
+          for (String line; (line = r.readLine()) != null; ) {
+            total.append(line).append('\n');
+          }
+          Log.d("wvcdm",total.toString());
           return Util.toByteArray(inputStream);
+          */
+
+          byte[] responseData = Util.toByteArray(inputStream);
+          String LAResponse = new String(Base64.encode(responseData, Base64.DEFAULT));
+          LAResponse = LAResponse.replaceAll("[\\n\\t ]", "");
+          Log.d("WVCdm", "DRM response as Base64: " + LAResponse);
+          return responseData;
+
         } catch (InvalidResponseCodeException e) {
           @Nullable String redirectUrl = getRedirectUrl(e, manualRedirectCount);
           if (redirectUrl == null) {
