@@ -265,8 +265,8 @@ public class PlayerActivity extends AppCompatActivity
       boolean preferExtensionDecoders =
           intent.getBooleanExtra(IntentUtil.PREFER_EXTENSION_DECODERS_EXTRA, false);
 
-      RenderersFactory renderersFactory = DemoUtil.buildRenderersFactory(/* context= */ this, preferExtensionDecoders);
-      //RenderersFactory renderersFactory = new DefaultRenderersFactory(this).experimentalSetAsynchronousBufferQueueingEnabled(true);
+      //RenderersFactory renderersFactory = DemoUtil.buildRenderersFactory(/* context= */ this, preferExtensionDecoders);
+      RenderersFactory renderersFactory = new DefaultRenderersFactory(this).experimentalSetAsynchronousBufferQueueingEnabled(true);
 
       MediaSourceFactory mediaSourceFactory =
           new DefaultMediaSourceFactory(dataSourceFactory)
