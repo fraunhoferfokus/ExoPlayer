@@ -20,6 +20,7 @@ import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.util.Pair;
 import android.view.KeyEvent;
 import android.view.View;
@@ -39,6 +40,7 @@ import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.RenderersFactory;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.audio.AudioAttributes;
+import com.google.android.exoplayer2.decoder.DecoderCounters;
 import com.google.android.exoplayer2.drm.FrameworkMediaDrm;
 import com.google.android.exoplayer2.ext.ima.ImaAdsLoader;
 import com.google.android.exoplayer2.mediacodec.MediaCodecRenderer;
@@ -59,11 +61,20 @@ import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.util.DebugTextViewHelper;
 import com.google.android.exoplayer2.util.ErrorMessageProvider;
 import com.google.android.exoplayer2.util.EventLogger;
+import com.google.android.exoplayer2.util.Log;
 import com.google.android.exoplayer2.util.Util;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 /** An activity that plays media using {@link SimpleExoPlayer}. */
 public class PlayerActivity extends AppCompatActivity
@@ -167,6 +178,10 @@ public class PlayerActivity extends AppCompatActivity
         playerView.onPause();
       }
       releasePlayer();
+    }
+    if (timer != null) {
+      timer.cancel(true);
+      Log.d("VFPO","Timer canceled");
     }
   }
 
@@ -288,6 +303,23 @@ public class PlayerActivity extends AppCompatActivity
       playerView.setPlayer(player);
       debugViewHelper = new DebugTextViewHelper(player, debugTextView);
       debugViewHelper.start();
+
+      SimpleDateFormat dateFormatter = new SimpleDateFormat("HH:mm:ss", Locale.GERMAN);
+      timer = scheduler.scheduleAtFixedRate(new Runnable() {
+        @Override
+        public void run() {
+          // start timer to get VFPO values
+          DecoderCounters decoderCounters;
+          if (player.getVideoDecoderCounters() != null) {
+            decoderCounters = player.getVideoDecoderCounters();
+            if (decoderCounters != null) {
+              String vfpo = DebugTextViewHelper.getVideoFrameProcessingOffsetAverageString(decoderCounters.totalVideoFrameProcessingOffsetUs, decoderCounters.videoFrameProcessingOffsetCount);
+              Calendar calendar = Calendar.getInstance();
+              Log.d("VFPO","" + dateFormatter.format(calendar.getTime()) + " " + vfpo + " ");
+            }
+          }
+        }
+      }, 0, 1, TimeUnit.SECONDS);
     }
     boolean haveStartPosition = startWindow != C.INDEX_UNSET;
     if (haveStartPosition) {
@@ -298,6 +330,9 @@ public class PlayerActivity extends AppCompatActivity
     updateButtonVisibility();
     return true;
   }
+
+  final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+  private Future timer;
 
   private List<MediaItem> createMediaItems(Intent intent) {
     String action = intent.getAction();

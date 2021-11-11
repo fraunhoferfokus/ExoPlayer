@@ -22,19 +22,19 @@
         "name": "ARD Live",
         "uri": "https://svc40.main.sl.t-online.de/LCID3221228143.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228143/3221228143.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EJyc5Ch5qScekJZABAr_obQ%7ETVLfIuurAgMYrsffbHWXRpISxnR3mVqL03leD2CKxos7tv-UX1hlBNIx8RMLI44GnknDfLaFtMX6JHd8QGzDTQTJXOPhfEqyeUKfzmil4BANYTTC_e8dX-h585EqU3JL%3A20211108105443%3AUTC%2C1086947933%2C79.210.181.210%2C20211108105443%2Cdas-erste%2C42B5DB1BD2AB1E998E58B610EF3FC2EB%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000201917767%2C0%2C120049010000000201917767%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=0&sid=42B5DB1BD2AB1E998E58B610EF3FC2EB&uid=120049010000000201917767&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=ZTA5OGQwZGUtMWUwNS0zN2Y4LWJmZjMtMWVmMDdhOTA3NmNi"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=ZGI3MWUwY2EtNmYxZC0zZWNiLWE0NmEtNDYxNjE0ZTM3N2U4"
       },
       {
         "name": "ZDF Live",
         "uri": "https://svc40.main.sl.t-online.de/LCID3221228195.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228195/3221228195.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7EdEFgGZ8e5O1KgF2FPUSiew%7EONmPOKXrpABMm-nvltwjX57I64b0A2qdssNd0hv6wiTdAONuz5pXMNHw98KVUC0-egue8je2JYcL7YDlJrqGWxV1g_MZiTuOS0LsSkByEEJx0Qy_WqwCQYKlRnMgD3oD%3A20210903124521%3AUTC%2C1072142205%2C194.95.168.20%2C20210903124521%2Czdf%2C3D5CEA8AADCDEF942341F9E4B68BA4E3%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000203004089%2C0%2C120049010000000203004089%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=2&sid=3D5CEA8AADCDEF942341F9E4B68BA4E3&uid=120049010000000203004089&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=ZTA5OGQwZGUtMWUwNS0zN2Y4LWJmZjMtMWVmMDdhOTA3NmNi"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=ZGI3MWUwY2EtNmYxZC0zZWNiLWE0NmEtNDYxNjE0ZTM3N2U4"
       },
       {
         "name": "RTL Live",
         "uri": "https://svc40.main.sl.t-online.de/LCID3221228142.originalserver.prod.sngtv.t-online.de/PLTV/88888888/224/3221228142/3221228142.mpd?rrsip=slbrrmfk11100.prod.sngtv.t-online.de&zoneoffset=0&servicetype=1&icpid=&accounttype=1&limitflux=-1&limitdur=-1&accountinfo=%7E%7EV2.0%7E3xfHxvnZwT529Epjp-uXqg%7EONmPOKXrpABMm-nvltwjX57I64b0A2qdssNd0hv6wiTdAONuz5pXMNHw98KVUC0-egue8je2JYcL7YDlJrqGWxV1g_MZiTuOS0LsSkByEEJx0Qy_WqwCQYKlRnMgD3oD%3A20210903124521%3AUTC%2C1072142205%2C194.95.168.20%2C20210903124521%2Crtl%2C3D5CEA8AADCDEF942341F9E4B68BA4E3%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C120049010000000203004089%2C0%2C120049010000000203004089%2C9b568f4b-26e3-45a5-b7dd-7b0c32251321%2C7%2CEND&GuardEncType=2&dp=0&i=5&sid=3D5CEA8AADCDEF942341F9E4B68BA4E3&uid=120049010000000203004089&audioLanguage=deu",
         "drm_scheme": "widevine",
-        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=ZTA5OGQwZGUtMWUwNS0zN2Y4LWJmZjMtMWVmMDdhOTA3NmNi"
+        "drm_license_uri": "https://vmxdrmfklb1.sfm.t-online.de:8063/?deviceId=ZGI3MWUwY2EtNmYxZC0zZWNiLWE0NmEtNDYxNjE0ZTM3N2U4"
       }
     ]
   },

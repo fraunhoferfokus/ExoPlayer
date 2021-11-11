@@ -210,7 +210,7 @@ public class DebugTextViewHelper implements Player.Listener, Runnable {
         : (" par:" + String.format(Locale.US, "%.02f", pixelAspectRatio));
   }
 
-  private static String getVideoFrameProcessingOffsetAverageString(
+  public static String getVideoFrameProcessingOffsetAverageString(
       long totalOffsetUs, int frameCount) {
     if (frameCount == 0) {
       return "N/A";
