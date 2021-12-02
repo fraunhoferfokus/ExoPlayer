@@ -107,10 +107,9 @@ public final class FrameworkMediaDrm implements ExoMediaDrm {
     this.mediaDrm = new MediaDrm(adjustUuid(uuid));
     // Creators of an instance automatically acquire ownership of the created instance.
     referenceCount = 1;
-    //if (C.WIDEVINE_UUID.equals(uuid) && needsForceWidevineL3Workaround()) {
-    //  forceWidevineL3(mediaDrm);
-    //}
-    forceWidevineL3(mediaDrm);
+    if (C.WIDEVINE_UUID.equals(uuid) && needsForceWidevineL3Workaround()) {
+      forceWidevineL3(mediaDrm);
+    }
   }
 
   @Override
