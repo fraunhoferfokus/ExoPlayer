@@ -93,6 +93,7 @@ public class SampleChooserActivity extends AppCompatActivity
 
     Intent intent = getIntent();
     String dataUri = intent.getDataString();
+    //dataUri = "https://raw.githubusercontent.com/fraunhoferfokus/dt-test-exoplayer/main/media.exolist.json";
     if (dataUri != null) {
       uris = new String[] {dataUri};
     } else {

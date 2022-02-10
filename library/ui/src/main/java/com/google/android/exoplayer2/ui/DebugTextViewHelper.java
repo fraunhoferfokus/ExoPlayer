@@ -23,6 +23,7 @@ import com.google.android.exoplayer2.Player;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.decoder.DecoderCounters;
 import com.google.android.exoplayer2.util.Assertions;
+import com.google.android.exoplayer2.util.Log;
 import java.util.Locale;
 
 /**
@@ -147,6 +148,12 @@ public class DebugTextViewHelper implements Player.EventListener, Runnable {
     if (format == null || decoderCounters == null) {
       return "";
     }
+    String offset = ""+decoderCounters.totalVideoFrameProcessingOffsetUs;
+    String offsetCount = ""+decoderCounters.videoFrameProcessingOffsetCount;
+    String vfpo = getVideoFrameProcessingOffsetAverageString(
+        decoderCounters.totalVideoFrameProcessingOffsetUs,
+        decoderCounters.videoFrameProcessingOffsetCount);
+    Log.d("DroppedFrames","VFPO:" + vfpo + ", Offset:"+offset + ", Count: "+ offsetCount);
     return "\n"
         + format.sampleMimeType
         + "(id:"
