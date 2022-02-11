@@ -15,6 +15,7 @@
  */
 package com.google.android.exoplayer2.demo;
 
+import static com.google.android.exoplayer2.C.WIDEVINE_UUID;
 import static com.google.android.exoplayer2.util.Assertions.checkArgument;
 import static com.google.android.exoplayer2.util.Assertions.checkNotNull;
 import static com.google.android.exoplayer2.util.Assertions.checkState;
@@ -24,8 +25,11 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
+import android.media.MediaDrm;
+import android.media.UnsupportedSchemeException;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.JsonReader;
 import android.view.Menu;
@@ -41,6 +45,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.exoplayer2.MediaItem;
 import com.google.android.exoplayer2.MediaItem.ClippingConfiguration;
@@ -125,6 +130,32 @@ public class SampleChooserActivity extends AppCompatActivity
       DownloadService.start(this, DemoDownloadService.class);
     } catch (IllegalStateException e) {
       DownloadService.startForeground(this, DemoDownloadService.class);
+    }
+
+    readHDCPLevel();
+  }
+
+  public void readHDCPLevel(){
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+      try {
+        MediaDrm mediaDrm = new MediaDrm(WIDEVINE_UUID);
+        String hdcpLevel = mediaDrm.getPropertyString("hdcpLevel");
+        String maxHdcpLevel = mediaDrm.getPropertyString("maxHdcpLevel");
+        String securityLevel = mediaDrm.getPropertyString("securityLevel");
+        String systemId = mediaDrm.getPropertyString("systemId");
+        String usageReportingSupport = mediaDrm.getPropertyString("usageReportingSupport");
+        String maxNumberOfSessions = mediaDrm.getPropertyString("maxNumberOfSessions");
+        String numberOfOpenSessions = mediaDrm.getPropertyString("numberOfOpenSessions");
+        Log.d(TAG, "HDCP Level: " + hdcpLevel);
+        Log.d(TAG, "Max HDCP Level: " + maxHdcpLevel);
+        Log.d(TAG, "securityLevel: " + securityLevel);
+        Log.d(TAG, "systemId: " + systemId);
+        Log.d(TAG, "usageReportingSupport: " + usageReportingSupport);
+        Log.d(TAG, "maxNumberOfSessions: " + maxNumberOfSessions);
+        Log.d(TAG, "numberOfOpenSessions: " + numberOfOpenSessions);
+      } catch (UnsupportedSchemeException e) {
+        e.printStackTrace();
+      }
     }
   }
 
